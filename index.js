@@ -25,7 +25,7 @@ const client = new MongoClient(uri, {
 });
 
 
-
+//jwt
 
 const verifyJWT = (req, res, next) =>{
   console.log('jwt hit')
